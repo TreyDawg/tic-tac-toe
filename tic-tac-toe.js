@@ -17,6 +17,7 @@ function trey() {
   five.setAttribute("cx",50)
   five.setAttribute("cy",150)
   five.setAttribute("r",40)
+  five.setAttribute("opacity",0.1)
   five.setAttribute("fill","yellow")
   savage.appendChild(five)
 }
@@ -49,4 +50,44 @@ three.setAttribute("cy",150)
 three.setAttribute("r",40)
 three.setAttribute("fill","red")
 sevages.appendChild(three)
+}
+
+function gigi() {
+ var seveges=document.getElementById("game-board")
+var threee=document.createElementNS(namespace, "circle")
+threee.setAttribute("cx",150)
+threee.setAttribute("cy",50)
+threee.setAttribute("r",40)
+threee.setAttribute("fill","yellow")
+seveges.appendChild(threee)
+}
+
+function papa() {
+ var sevegas=document.getElementById("game-board")
+var threeee=document.createElementNS(namespace, "circle")
+threeee.setAttribute("cx",250)
+threeee.setAttribute("cy",50)
+threeee.setAttribute("r",40)
+threeee.setAttribute("fill","red")
+sevegas.appendChild(threeee)
+}
+
+function dad() {
+ var seeegas=document.getElementById("game-board")
+var threeeee=document.createElementNS(namespace, "circle")
+threeeee.setAttribute("cx",250)
+threeeee.setAttribute("cy",150)
+threeeee.setAttribute("r",40)
+threeeee.setAttribute("fill","red")
+seeegas.appendChild(threeeee)
+}
+
+function mom() {
+ var seeeas=document.getElementById("game-board")
+var thrreeeee=document.createElementNS(namespace, "circle")
+thrreeeee.setAttribute("cx",250)
+thrreeeee.setAttribute("cy",250)
+thrreeeee.setAttribute("r",40)
+thrreeeee.setAttribute("fill","yellow")
+seeeas.appendChild(thrreeeee)
 }
