@@ -1,6 +1,24 @@
 // Write all your JavaScript code in this file!
 // You can use the namespace variable that's defined here.
 var namespace = "http://www.w3.org/2000/svg"
+
+function makeShape() {
+if (turn=="player1") {
+  var seven=document.createElementNS(namespace, "circle")
+  seven.setAttribute("cx",50)
+  seven.setAttribute("cy",50)
+  seven.setAttribute("r",40)
+  seven.setAttribute("fill","red")
+  svg.appendChild(seven)
+turn="player2"
+}
+}
+
+
+
+
+
+
 function circle() {
   var svg=document.getElementById("game-board")
   var seven=document.createElementNS(namespace, "circle")
@@ -17,7 +35,7 @@ function trey() {
   five.setAttribute("cx",50)
   five.setAttribute("cy",150)
   five.setAttribute("r",40)
-  five.setAttribute("opacity",0.1)
+  five.setAttribute("opacity",1)
   five.setAttribute("fill","yellow")
   savage.appendChild(five)
 }
